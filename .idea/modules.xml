@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello_dagger/hello_dagger.iml" filepath="$PROJECT_DIR$/hello_dagger/hello_dagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello_mvp/hello_mvp.iml" filepath="$PROJECT_DIR$/hello_mvp/hello_mvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello_okhttp/hello_okhttp.iml" filepath="$PROJECT_DIR$/hello_okhttp/hello_okhttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sth_about_mvp.iml" filepath="$PROJECT_DIR$/sth_about_mvp.iml" />
+    </modules>
+  </component>
+</project>
