@@ -18,6 +18,7 @@ import com.squareup.okhttp.Response;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.HashMap;
 
 /**
  * 一般的get请求
@@ -38,6 +39,30 @@ public class MainActivity extends AppCompatActivity {
         okhttpGet();
         okhttpPost();
         okhttpUpload();
+        loadData();
+        loadDataNetMag();
+    }
+
+    private void loadDataNetMag() {
+        NetManager.operateRequest("","",null,new ResultCallback<String>(String.class){
+
+        });
+    }
+
+    private void loadData() {
+        HashMap<String,String> params = new HashMap<>();
+        OkHttpClientManager.postAsyn("", new OkHttpClientManager.ResultCallback<String>() {
+            @Override
+            public void onError(Request request, Exception e) {
+
+            }
+
+            @Override
+            public void onResponse(String response) {
+
+            }
+        },params);
+
     }
 
     /**

@@ -30,6 +30,7 @@ import java.net.URLConnection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+
 /**
  * @author pikachu
  * @time 2016/7/11 14:37
@@ -44,7 +45,7 @@ public class OkHttpClientManager {
     private static final String TAG = "OkHttpClientManager";
 
     /**
-     *单例获取实例
+     * 单例获取实例
      */
     private OkHttpClientManager() {
         mOkHttpClient = new OkHttpClient();
@@ -428,7 +429,9 @@ public class OkHttpClientManager {
         getInstance()._downloadAsyn(url, destDir, callback);
     }
 
-   /**############### end ###############*/
+    /**
+     * ############### end ###############
+     */
 
 
     private Request buildMultipartFormRequest(String url, File[] files, String[] fileKeys, Param[] params) {
@@ -493,8 +496,9 @@ public class OkHttpClientManager {
 
     /**
      * 传输返回结果
+     *
      * @param callback 结果回调
-     * @param request 当前的请求对象
+     * @param request  当前的请求对象
      */
     private void deliveryResult(final ResultCallback callback, Request request) {
         mOkHttpClient.newCall(request).enqueue(new Callback() {
@@ -537,8 +541,9 @@ public class OkHttpClientManager {
     }
 
     /**
-     *  将成功的信息在主线程返回
-     * @param object 获取的结果对象
+     * 将成功的信息在主线程返回
+     *
+     * @param object   获取的结果对象
      * @param callback 回调对象
      */
     private void sendSuccessResultCallback(final Object object, final ResultCallback callback) {
@@ -554,6 +559,7 @@ public class OkHttpClientManager {
 
     /**
      * 构建一个post Request
+     *
      * @param url
      * @param params
      * @return Request
