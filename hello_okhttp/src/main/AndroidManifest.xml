@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <!--在branch 上面加点东西-->
+        <!--我是master 要加点东西啊-->
     </application>
 
 </manifest>
