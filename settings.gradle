@@ -1,1 +1,1 @@
-include ':app', ':hello_dagger', ':hello_okhttp', ':hello_mvp'
+include ':app', ':hello_dagger', ':hello_okhttp', ':hello_mvp', ':hello_rxjava', ':06leak_canary_demo', ':07permissiondemo', 'rxjava_for_android_github'

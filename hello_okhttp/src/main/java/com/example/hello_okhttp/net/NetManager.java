@@ -1,4 +1,4 @@
-package com.example.hello_okhttp;
+package com.example.hello_okhttp.net;
 
 import android.os.Handler;
 import android.os.Looper;

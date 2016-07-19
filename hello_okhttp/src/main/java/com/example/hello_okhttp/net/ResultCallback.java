@@ -1,5 +1,6 @@
-package com.example.hello_okhttp;
+package com.example.hello_okhttp.net;
 
+import com.example.hello_okhttp.BaseData;
 import com.google.gson.Gson;
 import com.google.gson.internal.$Gson$Types;
 import com.squareup.okhttp.Request;
