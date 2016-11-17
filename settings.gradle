@@ -1,1 +1,1 @@
-include ':app', ':hello_dagger', ':hello_okhttp', ':hello_mvp'
+include ':app', ':hello_dagger', ':hello_okhttp', ':hello_mvp', ':lib_test', ':reasetextview'
