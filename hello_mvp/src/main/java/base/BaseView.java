@@ -9,5 +9,10 @@ package base;
  */
 
 public interface BaseView<T> {
+    /**
+     * @desc 作用 View中拿到Presenter对象
+     * @call 当Fragment 作为View是 在Presenter的构造方法中获取
+     * @param presenter
+     */
      void setPresenter(T presenter);
 }

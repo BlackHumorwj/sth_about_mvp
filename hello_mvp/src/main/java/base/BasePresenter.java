@@ -8,5 +8,10 @@ package base;
  * @updateDate $Date$
  */
 
-public class BasePresenter {
+public interface BasePresenter {
+    /**
+     * @call View在OnCreate()方法中调用
+     * @desc 具体的实现类在此方法中，获取数据
+     */
+    void start();
 }
